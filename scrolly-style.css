@@ -1,0 +1,124 @@
+#scrolly {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fffff0;
+  padding: 1rem;
+}
+
+#scrolly > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#scrolly-2 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fffff0;
+  padding: 1rem;
+}
+
+#scrolly-2 > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+#scrolly-3 {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #fffff0;
+  padding: 1rem;
+}
+
+#scrolly-3 > * {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+article {
+  position: relative;
+  padding: 0 1rem;
+  max-width: 20rem;
+}
+
+.sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  margin: 0;
+  background-color: #fffff0;
+  background-image: url("images/CareInLife/Frame 0.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sticky-thing p {
+  padding: 1rem;
+  font-size: 8rem;
+  font-weight: 900;
+  color: #fffff0;
+}
+
+.step {
+  margin: 0 auto 2rem auto;
+  margin-bottom: 50rem;
+  background-color: #3b3b3b;
+  color: white;
+  border-radius: 5px;
+  line-height: 1.6;
+}
+
+.datasource {
+  font-size: 0.75rem;
+  color: gray;
+  text-decoration: underline;
+}
+
+.credits {
+  font-size: 0.75rem;
+  color: gray;
+}
+
+.credits a {
+  font-size: 0.75rem;
+  color: gray;
+  text-decoration: underline;
+}
+
+.step.invisible {
+  height: 80vh;
+  background: transparent;
+  pointer-events: none;
+  margin-bottom: 15rem;
+  color: #fffff0;
+}
+
+.step:last-child {
+  margin-bottom: 0;
+}
+
+.step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.highlight {
+  color: rgba(255, 118, 118, 1);
+  font-weight: bold;
+}
