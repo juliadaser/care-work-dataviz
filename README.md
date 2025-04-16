@@ -14,4 +14,4 @@ I used
 
 ---
 
-![Screenshot of website](WebsiteScreenshot.JPEG)
+![Screenshot of website](WebsiteScreenshot.jpg)
