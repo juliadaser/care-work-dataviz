@@ -13,5 +13,5 @@ I used
 - CSS Parallax Scrolling
 
 ---
+<img src="WebsiteScreenshot.jpg" alt="Screenshot of website" width="600"/>
 
-![Screenshot of website](WebsiteScreenshot.jpg)
